@@ -9,7 +9,7 @@
 
 <body>
     <?php include "includes/_navbar.php" ?>
-    <main>
+    <main class="kashiffkhan">
         <div class="container-fluid dkkintro">
             <div class="row">
                 <div class="col-lg-4">

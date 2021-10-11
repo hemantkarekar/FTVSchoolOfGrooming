@@ -9,7 +9,7 @@
 
 <body>
 	<?php include "includes/_navbar.php" ?>
-	<main>
+	<main class="index">
 		<div class="container-fluid dhomeintro">
 			<div class="row">
 				<div class="col-lg-4 col-md-12">

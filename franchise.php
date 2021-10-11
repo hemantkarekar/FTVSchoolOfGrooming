@@ -9,7 +9,7 @@
 
 <body>
   <?php include "includes/_navbar.php" ?>
-  <main>
+  <main class="franchise">
     <div class="franchise1">
       <div class="part1">
         <img src="/assets/media/images/diamond.png" alt="img" />
