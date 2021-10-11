@@ -1,0 +1,1556 @@
+body{
+	background-color: white;
+	width: 100%;
+	overflow-x: hidden;
+}
+video{
+	    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.mobile{
+	display: none;
+}
+.dhomeintro{
+	position: relative;
+}
+
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	    font-size: 82px;
+    position: absolute;
+    top: 26pc;
+    left: 12pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+	    font-size: 47px;
+    position: absolute;
+    top: 36pc;
+    left: 4pc;
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 100px;
+}
+.dhomehraning .head2{
+          font-size: 197px;
+    position: absolute;
+    top: 16pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+	    transform: rotate3d(4, -4, 5, 
+-21deg);
+
+}
+.dhomehraning .video2{
+	    transform: rotate(
+6deg);
+	       
+    position: absolute;
+    top: 23px;
+}
+.dhomehraning .video3{
+	    transform: rotate(
+-13deg);
+	      
+}
+.dhomehraning .video4{
+	    transform: rotate(
+5deg);
+	      
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	    font-size: 196px;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{
+	    position: absolute;
+        top: 0;
+}
+.growming .video2{
+	    position: relative;
+       top: 0;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	    position: absolute;
+    font-size: 300px;
+    top: -30pc;
+    left: 26pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	    position: absolute;
+    color: #C7BA1D;
+    font-size: 300px;
+    top: -12pc;
+}
+.vision1 .head3{
+	     position: absolute;
+    top: 11pc;
+    font-size: 80px;
+    left: 40pc;
+}
+.vision1 p{
+	 position: absolute;
+    width: 29%;
+    top: 20pc;
+    left: 41pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 100px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 44px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size:100px;
+}
+.dkkintro1 p{
+	    font-size: 25px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+    font-size: 100px;
+
+}
+.dkkbackground h3{
+	    font-size: 50px;
+}
+.dkkbackground p{
+	font-size: 20px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+    font-size: 100px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 20px;
+}
+/*kk end*/
+
+
+
+@media screen and (max-width:1500px){
+	.dhomeintro{
+	position: relative;
+}
+.mobile{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	    font-size: 82px;
+    position: absolute;
+    top: 26pc;
+    left: 12pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+	    font-size: 47px;
+    position: absolute;
+    top: 36pc;
+    left: 4pc;
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 100px;
+}
+.dhomehraning .head2{
+          font-size: 197px;
+    position: absolute;
+    top: 16pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+	    transform: rotate3d(4, -4, 5, 
+-21deg);
+
+}
+.dhomehraning .video2{
+	    transform: rotate(
+6deg);
+	       
+    position: absolute;
+    top: 23px;
+}
+.dhomehraning .video3{
+	    transform: rotate(
+-13deg);
+	      
+}
+.dhomehraning .video4{
+	    transform: rotate(
+5deg);
+	      
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	    font-size: 196px;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{
+	    position: absolute;
+    top: -14pc;
+}
+.growming .video2{
+	    position: relative;
+    top: -12pc;
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	    position: absolute;
+    font-size: 300px;
+    top: -30pc;
+    left: 26pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	    position: absolute;
+    color: #C7BA1D;
+    font-size: 300px;
+    top: -12pc;
+}
+.vision1 .head3{
+	     position: absolute;
+    top: 11pc;
+    font-size: 80px;
+    left: 40pc;
+}
+.vision1 p{
+	 position: absolute;
+    width: 29%;
+    top: 20pc;
+    left: 41pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+        font-size: 80px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 44px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	    font-size: 80px;
+}
+.dkkintro1 p{
+	    font-size: 25px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+       font-size: 80px;
+
+}
+.dkkbackground h3{
+	    font-size: 40px;
+}
+.dkkbackground p{
+	font-size: 20px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+        font-size: 80px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 20px;
+}
+/*kk end*/
+
+}
+
+
+
+
+@media screen and (max-width:1200px){
+		.dhomeintro{
+	position: relative;
+}
+.mobile{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	font-size: 60px;
+    position: absolute;
+    top: 27pc;
+    left: 6pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+	font-size: 30px;
+    position: absolute;
+    top: 33pc;
+    left: 4pc;
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 80px;
+}
+.dhomehraning .head2{
+        font-size: 9rem;
+    position: absolute;
+    top: 13pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+transform: rotate3d(4, -4, 5, 
+-21deg);
+    position: absolute;
+    top: -9pc;
+
+}
+.dhomehraning .video2{
+    transform: rotate( 
+6deg);
+    position: absolute;
+    top: -10pc;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	    font-size: 196px;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{
+	    position: absolute;
+    top: -14pc;
+}
+.growming .video2{
+	    position: relative;
+    top: -12pc;
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	    position: absolute;
+    font-size: 300px;
+    top: -30pc;
+    left: 20pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	     position: absolute;
+    color: #C7BA1D;
+    font-size: 286px;
+    top: -12pc;
+}
+.vision1 .head3{
+	    position: absolute;
+    top: 11pc;
+    font-size: 80px;
+    left: 29pc;
+}
+.vision1 p{
+	position: absolute;
+    width: 29%;
+    top: 20pc;
+    left: 30pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 60px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+        font-size: 30px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size: 60px;
+}
+.dkkintro1 p{
+	    font-size: 18px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+   font-size: 60px;
+
+}
+.dkkbackground h3{
+	    font-size: 30px;
+}
+.dkkbackground p{
+	font-size: 18px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+   font-size: 60px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 18px;
+}
+/*kk end*/
+}
+
+
+@media screen and (max-width:992px){
+		.dhomeintro{
+	position: relative;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	font-size: 60px;
+    position: absolute;
+    top: 27pc;
+    left: 6pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+    font-size: 30px;
+    position: absolute;
+    top: 33pc;
+    left: 4pc;
+    z-index: 1;
+
+
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 80px;
+}
+.dhomehraning .head2{
+          font-size: 7rem;
+    position: absolute;
+    top: 13pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+    transform: rotate3d(4, -4, 5, 
+-21deg);
+    position: relative;
+    top: 3pc;
+    width: 80%;
+}
+.dhomehraning .video2{
+    transform: rotate( 
+6deg);
+    position: relative;
+    top: 0;
+    width: 80%;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	     font-size: 12rem;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{  
+    position: absolute;
+    top: 0pc;
+}
+.growming .video2{
+	
+    position: absolute;
+    top: 0pc;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	     position: relative;
+    /* position: absolute; */
+    font-size: 12rem;
+    top: 0;
+    left: 2pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	    position: absolute;
+    color: #C7BA1D;
+    font-size: 12rem;
+    top: 11pc;
+}
+.vision1 .head3{
+	  position: absolute;
+    top: 23pc;
+    font-size: 80px;
+    left: 15pc;
+    color: black;
+}
+.vision1 p{
+    position: absolute;
+    width: 54%;
+    top: 30pc;
+    left: 15pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 60px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	    position: relative;
+    font-size: 30px;
+    left: 20px;
+    z-index: 1;
+    bottom: 0;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size: 60px;
+}
+.dkkintro1 p{
+	    font-size: 16px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+   font-size: 60px;
+
+}
+.dkkbackground h3{
+	    font-size: 30px;
+}
+.dkkbackground p{
+	font-size: 16px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+   font-size: 60px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 16px;
+}
+/*kk end*/
+}
+
+@media screen and (max-width:786px){
+			.dhomeintro{
+	position: relative;
+}
+.desktop{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	    font-size: 60px;
+    position: absolute;
+    top: 20pc;
+    left: 6pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+       font-size: 30px;
+    position: absolute;
+    top: 26pc;
+    left: 6pc;
+    z-index: 1;
+
+    
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 80px;
+}
+.dhomehraning .head2{
+   font-size: 6rem;
+    position: absolute;
+    top: 8pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+    transform: rotate3d(4, -4, 5, 
+-21deg);
+    position: relative;
+    top: 3pc;
+    width: 80%;
+}
+.dhomehraning .video2{
+    transform: rotate( 
+6deg);
+    position: relative;
+    top: 0;
+    width: 80%;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	     font-size: 12rem;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{  
+    position: absolute;
+    top: 0pc;
+}
+.growming .video2{
+	
+    position: absolute;
+    top: 0pc;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+    position: relative;
+    /* position: absolute; */
+    font-size: 12rem;
+    top: -110px;
+    left: 2pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	    position: absolute;
+    color: #C7BA1D;
+    font-size: 10rem;
+    top: 7pc;
+}
+.vision1 .head3{
+	    position: absolute;
+    top: 20pc;
+    font-size: 80px;
+    left: 7pc;
+    color: black;
+}
+.vision1 p{
+      position: absolute;
+    width: 54%;
+    top: 26pc;
+    left: 7pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+        font-size: 60px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 30px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size: 60px;
+}
+.dkkintro1 p{
+	    font-size: 16px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+   font-size: 60px;
+
+}
+.dkkbackground h3{
+	    font-size: 30px;
+}
+.dkkbackground p{
+	font-size: 16px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+   font-size: 60px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 16px;
+}
+/*kk end*/
+}
+
+@media screen and (max-width:576px){
+			.dhomeintro{
+	position: relative;
+}
+.desktop{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	font-size: 33px;
+    position: absolute;
+    top: 14pc;
+    left: 4pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+    font-size: 20px;
+    position: absolute;
+    top: 17pc;
+    left: 4pc;
+    z-index: 1;
+
+    
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 80px;
+}
+.dhomehraning .head2{
+          font-size: 3rem;
+    position: absolute;
+    top: 9pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+    transform: rotate3d(4, -4, 5, 
+-21deg);
+    position: relative;
+    top: 3pc;
+    width: 80%;
+}
+.dhomehraning .video2{
+    transform: rotate( 
+6deg);
+    position: relative;
+    top: 0;
+    width: 80%;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+	     font-size: 12rem;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{  
+    position: absolute;
+    top: 0pc;
+}
+.growming .video2{
+	
+    position: absolute;
+    top: 0pc;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	position: relative;
+    /* position: absolute; */
+    font-size: 7rem;
+    top: -12pc;
+    left: 2pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	position: absolute;
+    color: #C7BA1D;
+    font-size: 6rem;
+    top: -5pc;
+}
+.vision1 .head3{
+	 position: absolute;
+    top: 3pc;
+    font-size: 60px;
+    left: 3pc;
+    color: black;
+}
+.vision1 p{
+          position: absolute;
+    width: 69%;
+    top: 8pc;
+    left: 4pc;
+
+}	
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 50px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 30px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size: 50px;
+}
+.dkkintro1 p{
+	    font-size: 16px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+    font-size: 50px;
+
+}
+.dkkbackground h3{
+	    font-size: 30px;
+}
+.dkkbackground p{
+	font-size: 16px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+    font-size: 50px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 16px;
+}
+/*kk end*/
+}
+
+
+@media screen and (max-width:400px){
+			.dhomeintro{
+	position: relative;
+}
+.desktop{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+    font-size: 30px;
+    position: absolute;
+    top: 11pc;
+    left: 3pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+       font-size: 26px;
+    position: absolute;
+    top: 16pc;
+    left: 2pc;
+    z-index: 1;
+
+    
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	font-size: 60px;
+}
+.dhomehraning .head2{
+          font-size: 3rem;
+    position: absolute;
+    top: 5pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+      transform: rotate(
+4deg);
+    position: relative;
+    top: 0pc;
+    width: 100%;
+
+}
+.dhomehraning .video2{
+    transform: rotate( 
+-4deg);
+    position: relative;
+    top: 0pc;
+    width: 100%;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		font-size: 50px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	font-size: 50px;
+}
+.growming .head3{
+    font-size: 10rem;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{  
+    position: absolute;
+    top: 0pc;
+}
+.growming .video2{
+	
+    position: absolute;
+    top: 0pc;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	    position: relative;
+    /* position: absolute; */
+    font-size: 6rem;
+    top: 0pc;
+    left: 1pc;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	    
+    position: absolute;
+    color: #C7BA1D;
+    font-size: 5rem;
+    top: 8pc;
+
+}
+.vision1 .head3{
+	    position: absolute;
+    top: 16pc;
+    font-size: 55px;
+    left: 0;
+    color: black;
+}
+.vision1 p{
+       position: absolute;
+    width: 86%;
+    top: 21pc;
+    left: 1pc;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 40px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 27px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	 font-size: 40px;
+}
+.dkkintro1 p{
+	    font-size: 16px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+     font-size: 40px;
+
+}
+.dkkbackground h3{
+	    font-size: 30px;
+}
+.dkkbackground p{
+	font-size: 16px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+   font-size: 40px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 16px;
+}
+/*kk end*/
+}
+
+
+@media screen and (max-width:280px){
+			.dhomeintro{
+	position: relative;
+}
+.desktop{
+	display: none;
+}
+.dhomeintro img{
+	width: 100%;
+}
+.dhomeintro h1{
+	      font-size: 27px;
+    position: absolute;
+    top: 12pc;
+    left: 1pc;
+    z-index: 1;
+}
+.dhomeintro h3{
+        font-size: 20px;
+    position: absolute;
+    top: 14pc;
+    left: 1pc;
+    z-index: 1;
+}
+.dhomehraning{
+	background-color: gray;
+	position: relative;
+}
+.dhomehraning .head1{
+	    font-size: 40px;
+}
+.dhomehraning .head2{
+           font-size: 40px;
+    position: absolute;
+    top: 3pc;
+    color: #6D9587;
+    opacity: 0.5;
+}
+.dhomehraning .video1{
+      position: relative;
+    top: 3pc;
+    width: 100%;
+    transform: rotate( 
+4deg);
+}
+.dhomehraning .video2{
+      transform: rotate( 
+-4deg);
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.dhomehraning .video3{
+	position: absolute;
+    transform: rotate( 
+-13deg);
+    top: -12pc;     
+}
+.dhomehraning .video4{
+	position: relative;
+    transform: rotate( 
+5deg);
+    top: -12pc;     
+}
+.growming{
+	position: relative;
+}
+.growming .head1{
+		    font-size: 40px;
+    position: relative;
+    top: 1pc;
+}
+.growming .head2{
+	    font-size: 40px;
+}
+.growming .head3{
+	   font-size: 8rem;
+    font-size: Helvetica‭;
+    color: #C7BA1D;
+}
+.growming .video1{  
+    position: absolute;
+    top: 0pc;
+}
+.growming .video2{
+	
+    position: absolute;
+    top: 0pc;
+
+}
+.growming .video3{
+	
+}
+.vision1{
+	position: relative;
+}
+.vision1 .head1{
+	     position: relative;
+    /* position: absolute; */
+    font-size: 4rem;
+    top: 0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #C7BA1D;
+    letter-spacing: 29px;
+}
+.vision1 .head2{
+	
+    position: absolute;
+    color: #C7BA1D;
+    font-size: 4rem;
+    top: 5pc;
+
+}
+.vision1 .head3{
+	     position: absolute;
+    top: 10pc;
+    font-size: 40px;
+    left: 10px;
+    color: black;
+}
+.vision1 p{
+      position: absolute;
+    width: 100%;
+    top: 15pc;
+    left: 0;
+}
+/*kk*/
+.dkkintro{
+	position: relative;
+}
+.dkkintro img{
+	width: 100%;
+}
+.dkkintro h1{
+	    position: relative;
+    font-size: 30px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro p{
+	position: relative;
+    font-size: 20px;
+    top: 39%;
+    left: 20px;
+}
+.dkkintro1{
+	position: relative;
+}
+.dkkintro1 img{
+
+}
+.dkkintro1 h1{
+	font-size: 30px;
+}
+.dkkintro1 p{
+	    font-size: 15px;
+}
+.dkkintro1 .dkkintro1sec2{
+	background-color: #DDDDDD;
+}
+.dkkbackground{
+	position: relative;
+	background-color: #DDDDDD;
+}
+.dkkbackground h1{
+    font-size: 30px;
+
+}
+.dkkbackground h3{
+	    font-size: 20px;
+}
+.dkkbackground p{
+	font-size: 15px;
+}
+.dkkbackground img{
+	width: 100%;
+}
+.dkkjounery{
+	background-color: #C7BA1D;
+	position: relative;
+}
+.dkkjounery h1{
+   font-size: 30px;
+}
+.dkkjounery img{
+	width: 100%;
+}
+.dkkjounery p{
+	    font-size: 15px;
+}
+/*kk end*/
+}
