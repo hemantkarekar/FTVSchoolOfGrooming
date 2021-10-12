@@ -1,1841 +1,560 @@
-@charset "UTF-8";
-body {
-  background-color: white;
-  width: 100%;
-  overflow-x: hidden;
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("/assets/fonts/GothamBold.ttf");
 }
 
-main.index video {
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+@font-face {
+  font-family: "Gotham Light";
+  src: url("/assets/fonts/GothamLight.ttf");
 }
 
-main.index .mobile {
-  display: none;
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("/assets/fonts/Helvetica-Bold.ttf");
 }
 
-main.index .dhomeintro {
-  position: relative;
+@font-face {
+  font-family: "Helvetica 25 UltraLight";
+  src: url("/assets/fonts/Helvetica25UltraLight.ttf");
 }
 
-main.index .dhomeintro img {
-  width: 100%;
+@font-face {
+  font-family: "Helvetica Now Display X Black";
+  src: url("/assets/fonts/HelveticaNowDisplayXBlk.otf");
 }
 
-main.index .dhomeintro h1 {
-  font-size: 82px;
-  position: absolute;
-  top: 26pc;
-  left: 12pc;
-  z-index: 1;
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("/assets/fonts/Montserrat-Bold.ttf");
 }
 
-main.index .dhomeintro h3 {
-  font-size: 47px;
-  position: absolute;
-  top: 36pc;
-  left: 4pc;
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/assets/fonts/Montserrat-Regular.ttf");
 }
 
-main.index .dhomehraning {
-  background-color: gray;
-  position: relative;
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("/assets/fonts/NexaBold.otf");
 }
 
-main.index .dhomehraning .head1 {
-  font-size: 100px;
+@font-face {
+  font-family: "Nexa Light";
+  src: url("/assets/fonts/NexaLight.otf");
 }
 
-main.index .dhomehraning .head2 {
-  font-size: 197px;
-  position: absolute;
-  top: 16pc;
-  color: #6d9587;
-  opacity: 0.5;
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/assets/fonts/Poppins-Bold.otf");
 }
 
-main.index .dhomehraning .video1 {
-  -webkit-transform: rotate3d(4, -4, 5, -21deg);
-          transform: rotate3d(4, -4, 5, -21deg);
+@font-face {
+  font-family: "Poppins Light";
+  src: url("/assets/fonts/Poppins-Light.otf");
 }
 
-main.index .dhomehraning .video2 {
-  -webkit-transform: rotate(6deg);
-          transform: rotate(6deg);
-  position: absolute;
-  top: 23px;
-}
-
-main.index .dhomehraning .video3 {
-  -webkit-transform: rotate(-13deg);
-          transform: rotate(-13deg);
-}
-
-main.index .dhomehraning .video4 {
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-}
-
-main.index .growming {
-  position: relative;
-}
-
-main.index .growming .head1 {
-  font-size: 50px;
-  position: relative;
-  top: 1pc;
-}
-
-main.index .growming .head2 {
-  font-size: 50px;
-}
-
-main.index .growming .head3 {
-  font-size: 196px;
-  font-size: Helvetica‭;
-  color: #c7ba1d;
-}
-
-main.index .growming .video1 {
-  position: absolute;
-  top: 0;
-}
-
-main.index .growming .video2 {
-  position: relative;
-  top: 0;
-}
-
-main.index .vision1 {
-  position: relative;
-}
-
-main.index .vision1 .head1 {
-  position: absolute;
-  font-size: 300px;
-  top: -30pc;
-  left: 26pc;
-  color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #c7ba1d;
-  letter-spacing: 29px;
-}
-
-main.index .vision1 .head2 {
-  position: absolute;
-  color: #c7ba1d;
-  font-size: 300px;
-  top: -12pc;
-}
-
-main.index .vision1 .head3 {
-  position: absolute;
-  top: 11pc;
-  font-size: 80px;
-  left: 40pc;
-}
-
-main.index .vision1 p {
-  position: absolute;
-  width: 29%;
-  top: 20pc;
-  left: 41pc;
-}
-
-@media screen and (max-width: 1500px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .mobile {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 82px;
-    position: absolute;
-    top: 26pc;
-    left: 12pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 47px;
-    position: absolute;
-    top: 36pc;
-    left: 4pc;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 100px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 197px;
-    position: absolute;
-    top: 16pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate3d(4, -4, 5, -21deg);
-            transform: rotate3d(4, -4, 5, -21deg);
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    position: absolute;
-    top: 23px;
-  }
-  main.index .dhomehraning .video3 {
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-  }
-  main.index .dhomehraning .video4 {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 196px;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1 {
-    position: absolute;
-    top: -14pc;
-  }
-  main.index .growming .video2 {
-    position: relative;
-    top: -12pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: absolute;
-    font-size: 300px;
-    top: -30pc;
-    left: 26pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 300px;
-    top: -12pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 11pc;
-    font-size: 80px;
-    left: 40pc;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 29%;
-    top: 20pc;
-    left: 41pc;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .mobile {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 60px;
-    position: absolute;
-    top: 27pc;
-    left: 6pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 30px;
-    position: absolute;
-    top: 33pc;
-    left: 4pc;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 80px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 9rem;
-    position: absolute;
-    top: 13pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate3d(4, -4, 5, -21deg);
-            transform: rotate3d(4, -4, 5, -21deg);
-    position: absolute;
-    top: -9pc;
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    position: absolute;
-    top: -10pc;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 196px;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1 {
-    position: absolute;
-    top: -14pc;
-  }
-  main.index .growming .video2 {
-    position: relative;
-    top: -12pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: absolute;
-    font-size: 300px;
-    top: -30pc;
-    left: 20pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 286px;
-    top: -12pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 11pc;
-    font-size: 80px;
-    left: 29pc;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 29%;
-    top: 20pc;
-    left: 30pc;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .desktop {
-    display: none;
-  }
-  main.index .mobile {
-    display: block;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 60px;
-    position: absolute;
-    top: 27pc;
-    left: 6pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 30px;
-    position: absolute;
-    top: 33pc;
-    left: 4pc;
-    z-index: 1;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 80px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 7rem;
-    position: absolute;
-    top: 13pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate3d(4, -4, 5, -21deg);
-            transform: rotate3d(4, -4, 5, -21deg);
-    position: relative;
-    top: 3pc;
-    width: 80%;
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    position: relative;
-    top: 0;
-    width: 80%;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 12rem;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1,
-  main.index .growming .video2 {
-    position: absolute;
-    top: 0pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: relative;
-    /* position: absolute; */
-    font-size: 12rem;
-    top: 0;
-    left: 2pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 12rem;
-    top: 11pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 23pc;
-    font-size: 80px;
-    left: 15pc;
-    color: black;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 54%;
-    top: 30pc;
-    left: 15pc;
-  }
-}
-
-@media screen and (max-width: 786px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .desktop {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 60px;
-    position: absolute;
-    top: 20pc;
-    left: 6pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 30px;
-    position: absolute;
-    top: 26pc;
-    left: 6pc;
-    z-index: 1;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 80px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 6rem;
-    position: absolute;
-    top: 8pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate3d(4, -4, 5, -21deg);
-            transform: rotate3d(4, -4, 5, -21deg);
-    position: relative;
-    top: 3pc;
-    width: 80%;
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    position: relative;
-    top: 0;
-    width: 80%;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 12rem;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1,
-  main.index .growming .video2 {
-    position: absolute;
-    top: 0pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: relative;
-    /* position: absolute; */
-    font-size: 12rem;
-    top: -110px;
-    left: 2pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 10rem;
-    top: 7pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 20pc;
-    font-size: 80px;
-    left: 7pc;
-    color: black;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 54%;
-    top: 26pc;
-    left: 7pc;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .desktop {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 33px;
-    position: absolute;
-    top: 14pc;
-    left: 4pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 20px;
-    position: absolute;
-    top: 17pc;
-    left: 4pc;
-    z-index: 1;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 80px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 3rem;
-    position: absolute;
-    top: 9pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate3d(4, -4, 5, -21deg);
-            transform: rotate3d(4, -4, 5, -21deg);
-    position: relative;
-    top: 3pc;
-    width: 80%;
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    position: relative;
-    top: 0;
-    width: 80%;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 12rem;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1,
-  main.index .growming .video2 {
-    position: absolute;
-    top: 0pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: relative;
-    /* position: absolute; */
-    font-size: 7rem;
-    top: -12pc;
-    left: 2pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 6rem;
-    top: -5pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 3pc;
-    font-size: 60px;
-    left: 3pc;
-    color: black;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 69%;
-    top: 8pc;
-    left: 4pc;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .desktop {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 30px;
-    position: absolute;
-    top: 11pc;
-    left: 3pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 26px;
-    position: absolute;
-    top: 16pc;
-    left: 2pc;
-    z-index: 1;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 60px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 3rem;
-    position: absolute;
-    top: 5pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    -webkit-transform: rotate(4deg);
-            transform: rotate(4deg);
-    position: relative;
-    top: 0pc;
-    width: 100%;
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
-    position: relative;
-    top: 0pc;
-    width: 100%;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 50px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 50px;
-  }
-  main.index .growming .head3 {
-    font-size: 10rem;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1,
-  main.index .growming .video2 {
-    position: absolute;
-    top: 0pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: relative;
-    /* position: absolute; */
-    font-size: 6rem;
-    top: 0pc;
-    left: 1pc;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 5rem;
-    top: 8pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 16pc;
-    font-size: 55px;
-    left: 0;
-    color: black;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 86%;
-    top: 21pc;
-    left: 1pc;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  main.index .dhomeintro {
-    position: relative;
-  }
-  main.index .desktop {
-    display: none;
-  }
-  main.index .dhomeintro img {
-    width: 100%;
-  }
-  main.index .dhomeintro h1 {
-    font-size: 27px;
-    position: absolute;
-    top: 12pc;
-    left: 1pc;
-    z-index: 1;
-  }
-  main.index .dhomeintro h3 {
-    font-size: 20px;
-    position: absolute;
-    top: 14pc;
-    left: 1pc;
-    z-index: 1;
-  }
-  main.index .dhomehraning {
-    background-color: gray;
-    position: relative;
-  }
-  main.index .dhomehraning .head1 {
-    font-size: 40px;
-  }
-  main.index .dhomehraning .head2 {
-    font-size: 40px;
-    position: absolute;
-    top: 3pc;
-    color: #6d9587;
-    opacity: 0.5;
-  }
-  main.index .dhomehraning .video1 {
-    position: relative;
-    top: 3pc;
-    width: 100%;
-    -webkit-transform: rotate(4deg);
-            transform: rotate(4deg);
-  }
-  main.index .dhomehraning .video2 {
-    -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
-    position: relative;
-    top: 0;
-    width: 100%;
-  }
-  main.index .dhomehraning .video3 {
-    position: absolute;
-    -webkit-transform: rotate(-13deg);
-            transform: rotate(-13deg);
-    top: -12pc;
-  }
-  main.index .dhomehraning .video4 {
-    position: relative;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
-    top: -12pc;
-  }
-  main.index .growming {
-    position: relative;
-  }
-  main.index .growming .head1 {
-    font-size: 40px;
-    position: relative;
-    top: 1pc;
-  }
-  main.index .growming .head2 {
-    font-size: 40px;
-  }
-  main.index .growming .head3 {
-    font-size: 8rem;
-    font-size: Helvetica‭;
-    color: #c7ba1d;
-  }
-  main.index .growming .video1,
-  main.index .growming .video2 {
-    position: absolute;
-    top: 0pc;
-  }
-  main.index .vision1 {
-    position: relative;
-  }
-  main.index .vision1 .head1 {
-    position: relative;
-    /* position: absolute; */
-    font-size: 4rem;
-    top: 0;
-    left: 0;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #c7ba1d;
-    letter-spacing: 29px;
-  }
-  main.index .vision1 .head2 {
-    position: absolute;
-    color: #c7ba1d;
-    font-size: 4rem;
-    top: 5pc;
-  }
-  main.index .vision1 .head3 {
-    position: absolute;
-    top: 10pc;
-    font-size: 40px;
-    left: 10px;
-    color: black;
-  }
-  main.index .vision1 p {
-    position: absolute;
-    width: 100%;
-    top: 15pc;
-    left: 0;
-  }
+@font-face {
+  font-family: "W Foundry - Joane Regular";
+  src: url("/assets/fonts/W Foundry - Joane Regular.otf");
 }
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          box-sizing: border-box;
 }
 
-body {
-  max-width: 100%;
-  overflow-x: hidden;
+footer {
+  width: 100%;
+  background-color: #1A1A1A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  position: relative;
 }
 
-main.franchise img {
-  max-width: 100%;
-  height: auto;
+footer .foo-content {
+  width: 80%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-main.franchise h1 {
+footer .foo-content .main-wrap {
+  width: 50%;
+}
+
+footer .foo-content .main-wrap .subs .title h1 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Helvetica 25 UltraLight";
+  letter-spacing: 0.2rem;
+}
+
+footer .foo-content .main-wrap .subs .title h1 span {
+  font-family: "Poppins Bold";
   font-size: 3rem;
-  text-transform: uppercase;
 }
 
-main.franchise h3 {
-  text-transform: uppercase;
-}
-
-main.franchise .franchise1 {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-main.franchise .franchise1 .part1 {
-  background: #fec1a4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+footer .foo-content .main-wrap .subs .subs-form {
   padding: 20px 0;
-  color: #fff;
 }
 
-main.franchise .franchise1 .part1 img {
-  width: 50%;
-  margin: 0 auto;
-}
-
-main.franchise .franchise1 .part2 {
-  position: relative;
-  overflow: hidden;
-}
-
-main.franchise .franchise1 .part2 .patch {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  mix-blend-mode: inherit;
-  opacity: 0.5;
-}
-
-main.franchise .franchise2 {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-main.franchise .franchise2 .part2 {
+footer .foo-content .main-wrap .subs .subs-form form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  height: 40px;
 }
 
-main.franchise .franchise2 .part2 .container {
-  max-width: 75%;
-  padding: 100px 20px;
-  background: #c7ba1c;
-}
-
-main.franchise .franchise2 .part2 .container button {
+footer .foo-content .main-wrap .subs .subs-form form input {
+  background: none;
   border: none;
   outline: none;
-  border-bottom: 2px solid #fff;
-  color: #fff;
-  padding: 20px 25px;
-  font-size: 2rem;
-  text-transform: uppercase;
-  background: none;
+  border: 1px solid white;
 }
 
-main.franchise .franchise3 {
-  width: 100%;
-  padding: 50px;
-  position: relative;
+footer .foo-content .main-wrap .subs .subs-form form input[type="email"] {
+  padding: 5px 20px;
+  width: 400px;
+  color: white;
+  font-family: "Poppins Light";
 }
 
-main.franchise .franchise3 .leftPatch {
-  width: 50%;
+footer .foo-content .main-wrap .subs .subs-form form button {
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fec1a4;
-  z-index: -1;
+  background: none;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  width: 100px;
+  cursor: pointer;
+  background-color: #181818;
+  border-left: 1px solid white;
 }
 
-main.franchise .franchise3 h1 {
-  font-size: 10rem;
+footer .foo-content .main-wrap .subs .subs-form form button img {
+  height: 100%;
+  width: auto;
+  padding: 10px;
+}
+
+footer .foo-content .main-wrap .subs .subs-form form button:hover {
+  background-color: black;
+}
+
+footer .foo-content .main-wrap .subs .subs-form form button:active {
+  background-color: black;
+}
+
+footer .foo-content .main-wrap .links span {
+  color: white;
+}
+
+footer .foo-content .main-wrap .links span a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .foo-content .main-wrap .links span a:hover {
+  color: #6D9587;
+}
+
+footer .foo-content .main-wrap .links span:not(:last-child)::after {
+  content: " | ";
+  padding: 0 5px;
+}
+
+footer .foo-content .socials {
+  width: 100px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .foo-content .socials .links-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .foo-content .socials .links-wrap .link {
+  width: 100%;
+  height: auto;
   text-align: center;
 }
 
-main.franchise .franchise3 h1 span {
-  color: #fff;
+footer .foo-content .socials .links-wrap .link a img {
+  width: auto;
+  height: 60px;
+  padding: 15px;
 }
 
-main.franchise .franchise3 h3 {
-  font-size: 5rem;
+footer .foo-content .f-logo {
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  height: 90%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-main.franchise .franchise4 {
-  max-width: 75%;
-  margin: 0 auto;
-  padding: 50px 0;
+footer .foo-content .f-logo img {
+  height: 100%;
+  width: auto;
 }
 
-main.franchise .franchise4 .group {
-  margin: 20px 0;
-}
-
-main.franchise .franchise5 {
+.fashiontv section {
+  height: 100vh;
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-main.franchise .franchise5 .part1 {
-  background: url("/assets/media/images/Asset 2.png") center no-repeat;
-  background-size: cover;
-  min-height: 500px;
   position: relative;
 }
 
-main.franchise .franchise5 .part1 h1 {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  color: #c7ba1c;
-  font-size: 5rem;
+.fashiontv section.intro {
+  height: inherit;
+  width: 100%;
 }
 
-main.franchise .franchise5 .part2 {
-  padding: 50px;
-  min-height: 500px;
+.fashiontv section.intro .wrap {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.fashiontv section.intro .wrap img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.fashiontv section.intro .wrap .video-title {
+  position: absolute;
+  bottom: 10vh;
+  left: 10%;
+}
+
+.fashiontv section.intro .wrap .video-title h1 {
+  font-family: "Montserrat Bold";
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+}
+
+.fashiontv section.intro .patch {
+  height: 200vh;
+  width: 300px;
+  position: absolute;
+  right: 10%;
+  top: 0;
+}
+
+.fashiontv section.intro .patch.overlay {
+  z-index: 1;
+  mix-blend-mode: overlay;
+}
+
+.fashiontv section.intro .patch.fixed {
+  z-index: -1;
+  mix-blend-mode: normal;
+}
+
+.fashiontv section.intro .patch.yellow {
+  background-color: #C7BA1D;
+}
+
+.fashiontv section.title {
+  height: inherit;
+  width: 100%;
+}
+
+.fashiontv section.title .content-wrap {
+  height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.fashiontv section.title .content-wrap .media-content {
+  height: inherit;
+  width: 60%;
+}
+
+.fashiontv section.title .content-wrap .media-content .wrap {
+  height: inherit;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.fashiontv section.title .content-wrap .media-content .wrap img {
+  height: 100%;
+  max-width: auto;
+  position: relative;
+}
+
+.fashiontv section.title .content-wrap .text-content {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-@media (max-width: 1200px) {
-  main.franchise .franchise3 h1 {
-    font-size: 8rem;
-  }
+.fashiontv section.title .content-wrap .text-content .wrap .heading h1 {
+  font-size: rem;
+  text-transform: unset;
+  font-family: "Helvetica Bold";
 }
 
-@media (max-width: 992px) {
-  main.franchise .franchise3 h1 {
-    font-size: 5rem;
-  }
+.fashiontv section.title .content-wrap .text-content .wrap .sub h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat Bold";
+  letter-spacing: 0.3rem;
+  color: #6D9587;
 }
 
-@media (max-width: 768px) {
-  main.franchise .franchise3 h1 {
-    font-size: 5rem;
-  }
-  main.franchise .franchise3 h3 {
-    font-size: 4rem;
-  }
-  main.franchise .franchise5 .part1 h1 {
-    bottom: 2%;
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 576px) {
-  main.franchise .franchise3 h3 {
-    font-size: 3rem;
-  }
-  main.franchise .franchise1,
-  main.franchise .franchise2,
-  main.franchise .franchise3 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-  main.franchise .franchise5 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-  main.franchise .franchise5 .part2 {
-    min-height: 350px;
-  }
-  main.franchise .franchise3 h1 {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 400px) {
-  main.franchise .franchise3 h1 {
-    font-size: 3rem;
-  }
-  main.franchise .franchise3 h3 {
-    font-size: 2rem;
-  }
-  main.franchise .franchise4 {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 25px 0;
-  }
-  main.franchise .franchise5 .part2 {
-    padding: 30px;
-  }
-}
-
-@media (max-width: 300px) {
-  main.franchise h1 {
-    font-size: 2rem;
-    text-transform: uppercase;
-  }
-  main.franchise .franchise2 .part2 .container button {
-    padding: 10px;
-    font-size: 1rem;
-  }
-  main.franchise .franchise3 {
-    width: 100%;
-    padding: 10px;
-    position: relative;
-  }
-  main.franchise .franchise3 h1 {
-    font-size: 2rem;
-    text-align: left;
-  }
-  main.franchise .franchise2 .part2 .container {
-    padding: 70px 20px;
-  }
-}
-
-body {
-  background-color: white;
+.fashiontv section.introduction {
+  height: inherit;
   width: 100%;
-  overflow-x: hidden;
+  top: 0;
+  z-index: 0;
 }
 
-main.kashiffkhan {
-  /*kk*/
-  /*kk end*/
-}
-
-main.kashiffkhan video {
-  width: 100%;
+.fashiontv section.introduction .content-wrap {
   height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-main.kashiffkhan .mobile {
-  display: none;
-}
-
-main.kashiffkhan .dkkintro {
-  position: relative;
-}
-
-main.kashiffkhan .dkkintro img {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-main.kashiffkhan .dkkintro h1 {
-  position: relative;
-  font-size: 100px;
-  top: 39%;
-  left: 20px;
+.fashiontv section.introduction .content-wrap .media-content {
+  height: inherit;
+  width: 70%;
+  background-blend-mode: overlay;
 }
 
-main.kashiffkhan .dkkintro p {
-  position: relative;
-  font-size: 44px;
-  top: 39%;
-  left: 20px;
-}
-
-main.kashiffkhan .dkkintro1 {
-  position: relative;
-}
-
-main.kashiffkhan .dkkintro1 h1 {
-  font-size: 100px;
-}
-
-main.kashiffkhan .dkkintro1 p {
-  font-size: 25px;
-}
-
-main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-  background-color: #dddddd;
-}
-
-main.kashiffkhan .dkkbackground {
-  position: relative;
-  background-color: #dddddd;
-}
-
-main.kashiffkhan .dkkbackground h1 {
-  font-size: 100px;
-}
-
-main.kashiffkhan .dkkbackground h3 {
-  font-size: 50px;
-}
-
-main.kashiffkhan .dkkbackground p {
-  font-size: 20px;
-}
-
-main.kashiffkhan .dkkbackground img {
+.fashiontv section.introduction .content-wrap .media-content .wrap {
+  height: 100%;
   width: 100%;
-}
-
-main.kashiffkhan .dkkjounery {
-  background-color: #c7ba1d;
+  overflow: hidden;
   position: relative;
 }
 
-main.kashiffkhan .dkkjounery h1 {
-  font-size: 100px;
+.fashiontv section.introduction .content-wrap .media-content .wrap img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: auto;
+  height: 100%;
 }
 
-main.kashiffkhan .dkkjounery img {
+.fashiontv section.introduction .content-wrap .media-content .wrap .video-title {
+  position: absolute;
+  bottom: 10vh;
+  left: 10%;
+}
+
+.fashiontv section.introduction .content-wrap .media-content .wrap .video-title h1 {
+  font-family: "Montserrat Bold";
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+}
+
+.fashiontv section.introduction .content-wrap .text-content {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fashiontv section.introduction .content-wrap .text-content .wrap {
+  padding: 0 10%;
+}
+
+.fashiontv section.introduction .content-wrap .text-content .wrap .heading h1 {
+  font-size: 4rem;
+  text-transform: unset;
+  font-family: "Helvetica Bold";
+}
+
+.fashiontv section.introduction .content-wrap .text-content .wrap .desc p {
+  text-transform: uppercase;
+  font-family: "Montserrat Bold";
+  letter-spacing: 0.1rem;
+  color: #535353;
+}
+
+.fashiontv section.introduction .content-wrap .patch {
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  z-index: -2;
+  right: 10%;
+  top: 0;
+}
+
+.fashiontv section.introduction .content-wrap .patch.grey {
+  background-color: #DDDDDD;
+}
+
+.fashiontv section.key-facts {
+  background-color: #DDDDDD;
   width: 100%;
+  position: relative;
 }
 
-main.kashiffkhan .dkkjounery p {
-  font-size: 20px;
+.fashiontv section.key-facts .content-wrap .title {
+  padding: 20px;
 }
 
-@media screen and (max-width: 1500px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .mobile {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 80px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 44px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 80px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 25px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 80px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 40px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 20px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 80px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 20px;
-  }
+.fashiontv section.key-facts .content-wrap .title h1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-transform: unset;
+  color: transparent;
+  -webkit-text-stroke: 1px #C77E73;
+  font-family: "Helvetica Bold";
+  font-size: 12rem;
 }
 
-@media screen and (max-width: 1200px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .mobile {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 60px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 30px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 18px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 18px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 18px;
-  }
+.fashiontv section.key-facts .content-wrap .title h2 {
+  font-family: "W Foundry - Joane Regular";
+  font-size: 8rem;
+  text-transform: unset;
 }
 
-@media screen and (max-width: 992px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .mobile {
-    display: block;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 60px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 30px;
-    left: 20px;
-    z-index: 1;
-    bottom: 0;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 16px;
-  }
+.fashiontv section.key-facts .content-wrap .tab-pane {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
 }
 
-@media screen and (max-width: 786px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .desktop {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 60px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 30px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 60px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 16px;
-  }
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap {
+  width: 80%;
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-@media screen and (max-width: 576px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .desktop {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 50px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 30px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 50px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 50px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 50px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 16px;
-  }
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-content {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
-@media screen and (max-width: 400px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .desktop {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 40px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 27px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 40px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 40px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 16px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 40px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 16px;
-  }
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-content .media-cpntent {
+  width: 50%;
 }
 
-@media screen and (max-width: 280px) {
-  main.kashiffkhan {
-    /*kk*/
-    /*kk end*/
-  }
-  main.kashiffkhan .desktop {
-    display: none;
-  }
-  main.kashiffkhan .dkkintro {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkintro h1 {
-    position: relative;
-    font-size: 30px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro p {
-    position: relative;
-    font-size: 20px;
-    top: 39%;
-    left: 20px;
-  }
-  main.kashiffkhan .dkkintro1 {
-    position: relative;
-  }
-  main.kashiffkhan .dkkintro1 h1 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkintro1 p {
-    font-size: 15px;
-  }
-  main.kashiffkhan .dkkintro1 .dkkintro1sec2 {
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground {
-    position: relative;
-    background-color: #dddddd;
-  }
-  main.kashiffkhan .dkkbackground h1 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkbackground h3 {
-    font-size: 20px;
-  }
-  main.kashiffkhan .dkkbackground p {
-    font-size: 15px;
-  }
-  main.kashiffkhan .dkkbackground img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery {
-    background-color: #c7ba1d;
-    position: relative;
-  }
-  main.kashiffkhan .dkkjounery h1 {
-    font-size: 30px;
-  }
-  main.kashiffkhan .dkkjounery img {
-    width: 100%;
-  }
-  main.kashiffkhan .dkkjounery p {
-    font-size: 15px;
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-content .text-content {
+  width: 50%;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav {
+  width: 20%;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav ul {
+  width: 100%;
+  list-style: none;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav ul li {
+  font-family: "W Foundry - Joane Regular";
+  font-size: 1.2rem;
+  text-transform: unset;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav ul li:hover {
+  background-color: #c2c2c2;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav ul li.active {
+  background-color: #c2c2c2;
+}
+
+.fashiontv section.key-facts .content-wrap .tab-pane .wrap .tab-nav ul li a {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .fashiontv section.introduction .content-wrap .text-content .wrap .heading {
+    font-size: 3rem;
   }
 }

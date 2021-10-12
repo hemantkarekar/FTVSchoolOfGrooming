@@ -1,0 +1,311 @@
+.fashiontv {
+    section {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+
+        &.intro {
+            height: inherit;
+            width: 100%;
+
+            .wrap {
+                height: 100vh;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .video-title {
+                    position: absolute;
+                    bottom: 10vh;
+                    left: 10%;
+
+                    h1 {
+                        font-family: "Montserrat Bold";
+                        text-transform: uppercase;
+                        font-size: 2rem;
+                        color: white;
+                    }
+                }
+            }
+
+            .patch {
+                height: 200vh;
+                width: 300px;
+                position: absolute;
+                right: 10%;
+                top: 0;
+
+                &.overlay {
+                    z-index: 1;
+                    mix-blend-mode: overlay;
+                }
+
+                &.fixed {
+                    z-index: -1;
+                    mix-blend-mode: normal;
+                }
+
+                &.yellow {
+                    background-color: #C7BA1D;
+                }
+            }
+        }
+
+        &.title {
+            height: inherit;
+            width: 100%;
+
+            .content-wrap {
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+
+                .media-content {
+                    height: inherit;
+                    width: 60%;
+                    .wrap {
+                        height: inherit;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        overflow: hidden;
+                        img {
+                            height: 100%;
+                            max-width: auto;
+
+                            position: relative;
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .wrap {
+                        .heading {
+                            h1 {
+                                font-size: rem;
+                                text-transform: unset;
+                                font-family: "Helvetica Bold";
+                            }
+                        }
+
+                        .sub {
+                            h2 {
+                                font-size: 2rem;
+                                text-transform: uppercase;
+                                font-family: "Montserrat Bold";
+                                letter-spacing: 0.3rem;
+                                color: #6D9587;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.introduction {
+            height: inherit;
+            width: 100%;
+            top: 0;
+            z-index: 0;
+
+            .content-wrap {
+                height: 100vh;
+                width: 100%;
+                display: flex;
+
+                .media-content {
+                    height: inherit;
+                    width: 70%;
+                    background-blend-mode: overlay;
+
+                    .wrap {
+                        height: 100%;
+                        width: 100%;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            max-width: auto;
+                            height: 100%;
+                        }
+
+                        .video-title {
+                            position: absolute;
+                            bottom: 10vh;
+                            left: 10%;
+
+                            h1 {
+                                font-family: "Montserrat Bold";
+                                text-transform: uppercase;
+                                font-size: 2rem;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .text-content {
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .wrap {
+                        padding: 0 10%;
+
+                        .heading {
+                            h1 {
+                                font-size: 4rem;
+                                text-transform: unset;
+                                font-family: "Helvetica Bold";
+                            }
+                        }
+
+                        .desc {
+                            p {
+                                text-transform: uppercase;
+                                font-family: "Montserrat Bold";
+                                letter-spacing: 0.1rem;
+                                color: #535353;
+                            }
+                        }
+                    }
+                }
+
+                .patch {
+                    height: 100%;
+                    width: 300px;
+                    position: absolute;
+                    z-index: -2;
+                    right: 10%;
+                    top: 0;
+
+                    &.grey {
+                        background-color: #DDDDDD;
+                    }
+                }
+            }
+        }
+
+        &.key-facts {
+            background-color: #DDDDDD;
+            width: 100%;
+            position: relative;
+
+            .content-wrap {
+                .title {
+                    padding: 20px;
+
+                    h1 {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        text-transform: unset;
+                        color: transparent;
+                        -webkit-text-stroke: 1px #C77E73;
+                        font-family: "Helvetica Bold";
+                        font-size: 12rem;
+                    }
+
+                    h2 {
+                        font-family: "W Foundry - Joane Regular";
+                        font-size: 8rem;
+                        text-transform: unset;
+                    }
+                }
+
+                .tab-pane {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 100px;
+
+                    .wrap {
+                        width: 80%;
+                        min-height: 70vh;
+                        display: flex;
+
+                        .tab-content {
+                            width: 80%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: row-reverse;
+
+                            .media-cpntent {
+                                width: 50%;
+                            }
+
+                            .text-content {
+                                width: 50%;
+                            }
+                        }
+
+                        .tab-nav {
+                            width: 20%;
+
+                            ul {
+                                width: 100%;
+                                list-style: none;
+
+                                li {
+                                    font-family: "W Foundry - Joane Regular";
+                                    font-size: 1.2rem;
+                                    text-transform: unset;
+                                    display: block;
+                                    padding: 10px;
+                                    cursor: pointer;
+                                    &:hover {
+                                        background-color: #c2c2c2;
+                                    }
+                                    &.active {
+                                        background-color: #c2c2c2;
+                                    }
+                                    a {
+                                        width: 100%;
+                                        height: auto;
+                                        cursor: pointer;
+                                        text-decoration: none;
+                                        color: black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:1300px) {
+        section.introduction{
+            .content-wrap {
+                .text-content{
+                    .wrap {
+                        .heading {
+                            font-size: 3rem;
+                        }
+                    }
+                } 
+            }
+        } 
+    }
+}
